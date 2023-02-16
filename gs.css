@@ -1,0 +1,69 @@
+speech{font-family: 'Times New Roman', Times, serif; font-size: medium;  color: black;}
+direction:hover{font-family: Arial, Helvetica, sans-serif; font-size: large; color: black;
+    background-color: rgb(111, 194, 118);}
+div.TOMBES{ font-family:'Times New Roman', Times, serif;font-size:large;color:rgb(193, 129, 41)}
+div.TOMBES:hover{text-shadow: 2px 3px 1px rgb(67, 41, 219); border-style: inset; padding: auto; background-color:rgb(207, 204, 31); }
+div.LADYSIMS{font-family: 'Courier New', Courier, monospace; font-size:large; color: rgba(32, 80, 139, 0.792); }
+div.LADYSIMS:hover{text-shadow: 2px 3px 1px rgb(67, 41, 219); border-style: inset; padding: auto; background-color:lightgreen; }
+div.SIRHARRY{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: large;color: rgb(193, 164, 211);}
+div.SIRHARRY:hover{text-shadow: 2px 3px 1px rgb(99, 15, 46); border-style: inset;
+  padding: auto; background-color:rgb(118, 95, 25);}
+table {
+        font-family:'Courier New', Courier, monospace;
+        border-collapse: collapse;
+        width: 50%;
+      }
+      
+      td {
+        border: 4px solid darkgrey;
+        text-align: left;
+        padding: 8px;
+        color: rgb(69, 10, 30);
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+      }
+      th {
+        border: 4px solid darkgrey;
+        text-align: left;
+        padding: 8px;
+        color: rgb(139, 89, 27);
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+      }
+
+      tr:nth-child(even) {
+        background-color: aliceblue;
+      }
+nav{
+    display: inline-flexbox;
+    padding: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(209, 186, 186);
+}
+
+l {
+  float: left;
+}
+
+l a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+l a:hover {
+  background-color: whitesmoke;
+}
